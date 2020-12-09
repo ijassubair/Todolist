@@ -4,8 +4,8 @@ $(function () {
 
     $.each(data, function (key, value) {
       entry += "<tr>";
-      entry += "<td>" + value.id + "</td>";
       entry += "<td>" + value.userId + "</td>";
+      entry += "<td>" + value.id + "</td>";  
       entry += "<td>" + value.title + "</td>";
       
 

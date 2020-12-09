@@ -10,6 +10,6 @@ function validate(event){
         form.submit();
     }
     else{
-        document.getElementById("warning").innerHTML = "<p class='text-white'>Invalid credentials</p>"
+        document.getElementById("warning").innerHTML = "<p class='text-white bg-danger p-1'>Invalid credentials</p>"
     }
 }
